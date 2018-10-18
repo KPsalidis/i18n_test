@@ -1,0 +1,26 @@
+{
+  "links": {
+    "home": "Home",
+    "about": "About",
+    "contact":"Contact",
+    "english": "English version",
+    "french": "French version"
+  },
+  "home": {
+    "title": "Home Page",
+    "introduction": "This is an introduction in English.",
+    "lang" : "English"
+  },
+    
+  "about": {
+    "title": "About",
+    "introduction": "This page is made to give you more information."
+  },
+
+  "contact":{
+    "title" : "Contact me.",
+    "introduction":"This page contains my contact information."
+  }
+  
+}
+

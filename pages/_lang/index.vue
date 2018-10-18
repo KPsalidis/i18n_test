@@ -20,7 +20,6 @@
 </template>
 
 <script>
-
 import Lang_switcher from '~/components/Lang_switcher.vue'
 
 export default {

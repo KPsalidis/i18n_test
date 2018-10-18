@@ -2,35 +2,34 @@
   <section class="container">
 
 
-    <lang-switcher></lang-switcher>
+   <lang-switcher></lang-switcher>
+   
 
+
+
+
+<nuxt-link :to="$i18n.path('')" class="Header__Link" exact>
+            {{ $t('links.home') }}
+        </nuxt-link>
 
 <nuxt-link :to="$i18n.path('about')" class="Header__Link" exact>
             {{ $t('links.about') }}
-          </nuxt-link>
-
-<nuxt-link :to="$i18n.path('contact')" class="Header__Link" exact>
-            {{ $t('links.contact') }}
         </nuxt-link>
 
-<h1>{{$t('home.title')}}</h1>
-<p>{{$t('home.introduction')}}</p>
+
+<h1>{{$t('contact.title')}}</h1>
+<p>{{$t('contact.introduction')}}</p>
+
 
   </section>
 </template>
 
 <script>
-
 import Lang_switcher from '~/components/Lang_switcher.vue'
 
 export default {
   components: {
     'lang-switcher': Lang_switcher
-  },
-  data () {
-    return{
-      lang :''
-    }
   },
   
   methods: {
@@ -42,8 +41,6 @@ export default {
     }
   }
 } 
-    
-
 </script>
 
 <style>
